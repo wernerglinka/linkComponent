@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        font-family: Helvetica, sans-serif;
+      }
+
+      link-component {
+        --title-color: gray;
+        
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin: 50px auto;
+      }
+    </style>
+    <script src="lib/link.js" type="module"></script>
+    
+  </head>
+  <body>
+    
+    <link-component
+      id="link-component"
+      url="https://www.apple.com" 
+      isButton="true" 
+      colorScheme="primary" 
+      isExternal="true"
+    >Learn More</link-component>
+
+    <script>
+      setTimeout(() => {
+        const target = document.getElementById("link-component");
+        target.textContent = "What ever you want";
+      }, 3000);
+    </script>
+
+  </body>
+</html>
