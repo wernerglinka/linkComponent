@@ -1,7 +1,7 @@
 {
   "name": "linkcomponent",
   "version": "1.0.0",
-  "description": "A Web Component for a Header",
+  "description": "A Web Component for a link",
   "main": "link.js",
   "scripts": {
     "test": "light-server -s ./ -o -w 'lib/link.js'",
