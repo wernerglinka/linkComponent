@@ -1,5 +1,5 @@
 {
-  "name": "linkcomponent",
+  "name": "@wg/linkcomponent",
   "version": "1.0.0",
   "description": "A Web Component for a link",
   "main": "link.js",
