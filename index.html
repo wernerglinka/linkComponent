@@ -33,7 +33,17 @@
       setTimeout(() => {
         const target = document.getElementById("link-component");
         target.textContent = "What ever you want";
+        target.url = "https://www.google.com";
+        target.colorscheme = "inverted";
+        target.removeAttribute("isbutton");
+
       }, 3000);
+
+      setTimeout(() => {
+        const target = document.getElementById("link-component");
+        //target.setAttribute("isexternal", "");
+      }, 6000);
+
     </script>
 
   </body>
