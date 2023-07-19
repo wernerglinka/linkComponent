@@ -67,7 +67,7 @@ link-component {
 ## Author
 [Werner Glinka](werner@glinka.co)
 
-[npm-badge]: https://img.shields.io/npm/v/linkcomponent.svg
+[npm-badge]: https://img.shields.io/npm/v/@wernerglinka/linkcomponent.svg
 [npm-url]: https://www.npmjs.com/package/@wernerglinka/linkcomponent
 [license-badge]: https://img.shields.io/github/license/wernerglinka/linkComponent
 [license-url]: LICENSE
