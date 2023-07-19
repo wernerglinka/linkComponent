@@ -62,12 +62,12 @@ link-component {
 
 
 ## License
-[MIT](https://github.com/wernerglinka/linkcomponent/blob/main/LICENSE)
+[MIT](https://github.com/wernerglinka/linkComponent/blob/main/LICENSE)
 
 ## Author
 [Werner Glinka](werner@glinka.co)
 
 [npm-badge]: https://img.shields.io/npm/v/linkcomponent.svg
-[npm-url]: https://www.npmjs.com/package/linkcomponent
-[license-badge]: https://img.shields.io/github/license/wernerglinka/linkcomponent
+[npm-url]: https://www.npmjs.com/package/@wernerglinka/linkcomponent
+[license-badge]: https://img.shields.io/github/license/wernerglinka/linkComponent
 [license-url]: LICENSE
