@@ -37,12 +37,37 @@
         target.colorscheme = "inverted";
         target.removeAttribute("isbutton");
 
+        console.log("changed to link");
+        console.log("*********************************************");
+
       }, 3000);
 
       setTimeout(() => {
         const target = document.getElementById("link-component");
-        //target.setAttribute("isexternal", "");
+        target.isexternal = false;
+
+        console.log("reset isExternal");
+        console.log("*********************************************");
       }, 6000);
+      
+      setTimeout(() => {
+        const target = document.getElementById("link-component");
+        target.isbutton = true;
+        target.colorscheme = "primary";
+        target.url = "https://www.apple.com";
+        target.textContent = "Go to Apple";
+
+        console.log("changed to button");
+        console.log("*********************************************");
+      }, 9000);
+
+      setTimeout(() => {
+        const target = document.getElementById("link-component");
+        target.isexternal = true;
+
+        console.log("set isExternal");
+        console.log("*********************************************");
+      }, 12000);
 
     </script>
 
