@@ -24,24 +24,24 @@
     <link-component
       id="link-component"
       url="https://www.apple.com" 
-      isbutton="true" 
+      isbutton 
       colorscheme="primary" 
-      isexternal="true"
     >Learn More</link-component>
 
     <script>
+
       setTimeout(() => {
         const target = document.getElementById("link-component");
         target.textContent = "What ever you want";
         target.url = "https://www.google.com";
         target.colorscheme = "inverted";
-        target.removeAttribute("isbutton");
+        target.isbutton = false;
 
         console.log("changed to link");
         console.log("*********************************************");
 
       }, 3000);
-
+/*
       setTimeout(() => {
         const target = document.getElementById("link-component");
         target.isexternal = false;
@@ -52,7 +52,7 @@
       
       setTimeout(() => {
         const target = document.getElementById("link-component");
-        target.isbutton = true;
+        target.setAttribute("isbutton", "");
         target.colorscheme = "primary";
         target.url = "https://www.apple.com";
         target.textContent = "Go to Apple";
@@ -68,7 +68,7 @@
         console.log("set isExternal");
         console.log("*********************************************");
       }, 12000);
-
+*/
     </script>
 
   </body>
